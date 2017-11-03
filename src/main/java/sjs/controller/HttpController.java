@@ -9,8 +9,8 @@ import sjs.User;
 @RestController
 @EnableAutoConfiguration
 @RequestMapping("/http")
-public class HttpController {
-
+public class HttpController extends BaseController{
+	
 	@RequestMapping("/index")
 	public String index() {
 		return "Index Page";
@@ -19,5 +19,10 @@ public class HttpController {
 	@RequestMapping("/user")
 	public String user(User user) {
 		return "Hello World!" + user.getAge() + " age " + user.getName();
+	}
+	
+	@RequestMapping("/json")
+	public String json() throws Exception{
+		return super.getJsonParam().toString();
 	}
 }
