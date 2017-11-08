@@ -27,9 +27,9 @@ public class LogProperties {
 		return getProp().getProperty(key).trim();
 	}
 	
-	public static void main(String[] args) {
-		LogProperties lp = new LogProperties();
-		String s = lp.getByKey("kafka.value.serializer");
-		System.out.println(s);
-	}
+//	public static void main(String[] args) {
+//		LogProperties lp = new LogProperties();
+//		String s = lp.getByKey("kafka.value.serializer");
+//		System.out.println(s);
+//	}
 }
