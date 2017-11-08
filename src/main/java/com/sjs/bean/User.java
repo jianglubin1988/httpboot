@@ -1,4 +1,4 @@
-package sjs.bean;
+package com.sjs.bean;
 
 public class User {
 

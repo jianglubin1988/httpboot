@@ -1,10 +1,10 @@
-package sjs.controller;
+package com.sjs.controller;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import sjs.bean.User;
+import com.sjs.bean.User;
 
 @RestController
 @EnableAutoConfiguration

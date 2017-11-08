@@ -1,4 +1,4 @@
-package sjs.app;
+package com.sjs.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

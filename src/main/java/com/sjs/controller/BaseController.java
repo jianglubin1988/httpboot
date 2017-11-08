@@ -1,4 +1,4 @@
-package sjs.controller;
+package com.sjs.controller;
 
 import java.io.PrintWriter;
 import java.util.HashMap;
