@@ -7,8 +7,10 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
+		<config>java:com.sjs.controller.HttpMain</config>
 	</configs>
 	<autoconfigs>
+		<config>java:com.sjs.controller.HttpController</config>
 	</autoconfigs>
 	<configSets>
 	</configSets>
